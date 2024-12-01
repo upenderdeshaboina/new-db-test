@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 // MySQL connection
 const db = mysql.createConnection({
     host: 'localhost',
-    user: 'root',
+    user: 'upender',
     password: 'Upender@12',
     database: 'stock_market',
 });
