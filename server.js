@@ -35,7 +35,6 @@ app.get('/get', async (req, res) => {
             console.error('Database query error:', err.message);
             return res.status(500).json({ error: 'Database query error.' });
         }
-        // Send the query result
         res.status(200).json({ counts: results[0].counts });
     });
 });
