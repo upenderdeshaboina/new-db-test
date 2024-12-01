@@ -24,7 +24,7 @@ db.connect((err) => {
         console.error('Error connecting to the database:', err);
         process.exit(1);
     }
-    console.log('Connected to MySQL database.');
+    console.log('Connected to MySQL database');
 });
 
 // API: Sign-Up
