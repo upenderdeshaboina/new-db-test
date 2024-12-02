@@ -38,7 +38,6 @@ app.get('/get', async (req, res) => {
         res.status(200).json({ counts: results[0].counts });
     });
 });
-
 app.post('/signup', async (req, res) => {
     const { username, password, email } = req.body;
 
